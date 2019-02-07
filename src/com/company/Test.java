@@ -13,13 +13,13 @@ public class Test {
         System.out.println(checkNumberZeros(10012, factorialZeros.getNumberZeros(10012)));
     }
 
-    // find number of zeros
+    /** Find number of zeros */
     private static boolean checkNumberZeros(int fac, int zeros) {
         String facString =  new Factorial(fac).getFactorial().toString();
         return getNumberZerosForString(facString) == zeros;
     }
 
-    // find number of zeros for String
+    /** Find number of zeros for String */
     private static int getNumberZerosForString(String s) {
         StringBuilder sb = new StringBuilder(s);
         String reverse = sb.reverse().toString();
