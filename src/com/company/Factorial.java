@@ -7,6 +7,7 @@ import java.math.BigInteger;
  * from 0 to 2 147 483 647.
  */
 public class Factorial {
+    /** Factorial */
     private BigInteger factorial;
 
     public Factorial(int fact) {
@@ -17,7 +18,7 @@ public class Factorial {
         return factorial;
     }
 
-    // factorial calculations
+    /** Factorial calculations */
     private BigInteger factorial(int fact) {
         // special case
         if (fact < 0) {
