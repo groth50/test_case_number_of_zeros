@@ -7,6 +7,7 @@ package com.company;
 public class FactorialZeros {
     private final static int FIVE = 5;
 
+    /** Finds the number of zeros */
     public int getNumberZeros(int num) {
         // special case
         if (num < 0) {
